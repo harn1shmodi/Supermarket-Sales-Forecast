@@ -4,8 +4,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 #%matplotlib inline
 
-train = pd.read_csv('/home/harnish/Train.csv')
-test = pd.read_csv('/home/harnish/Test.csv')
+train = pd.read_csv('/Train.csv')
+test = pd.read_csv('/Test.csv')
 
 train['source'] = 'train'
 test['source'] = 'test'
